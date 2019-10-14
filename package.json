@@ -1,0 +1,16 @@
+{
+  "name": "Node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "zipPcFactor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.4.13",
+    "archiver": "^3.1.1"
+  }
+}
