@@ -1,5 +1,5 @@
 {
-  "name": "zipFile",
+  "name": "Node",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,7 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "adm-zip": "^0.4.13",
-    "archiver": "^3.1.1",
-    "express": "^4.17.1"
+    "archiver": "^3.1.1"
   }
 }
