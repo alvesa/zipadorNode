@@ -5,7 +5,7 @@ const zip = require('./zipFiles');
 
 app.get('/', (req, res, next) =>{
     
-    const mensagem = zip.ziparArquivos('PCF4CustomPM025210', '../Projetos/BARTIRA/PCF4CustomPM025210/');
+    const mensagem = zip.ziparArquivos('SeuProjeto', 'PastaSeuProjeto/');
 
     res.send({ mensagem });
 });
