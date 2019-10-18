@@ -16,7 +16,7 @@ function newArchive(zipFileName, pathNames) {
     const zip = new AdmZip();
 
     pathNames.forEach(pathCompleto => {
-        const nomePathZip = pathCompleto.split('/')[3];
+        const nomePathZip = pathCompleto.split('/')[pathCompleto.split('/').length-1];
         const p = stat(pathCompleto);
         console.log(`Copiando ${nomePathZip} ...`);
         if (p.isFile()) {
